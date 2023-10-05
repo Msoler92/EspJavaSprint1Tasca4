@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="440efecf-f238-4d10-b216-54509829ae9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/n1exercici1/Year.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/n1exercici2/CalculoDni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/n1exercici3/LazyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/n1exercici1/YearTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/n1exercici2/CalculoDniTest.java" afterDir="false" />
+    <list default="true" id="440efecf-f238-4d10-b216-54509829ae9a" name="Changes" comment="exercicis 1 i 2 complets">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/n1exercici3/BadListClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/n1exercici3/BadListClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2WFQsKfLp63g4yKl7wEPbmi0gSG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,12 +44,37 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "android.gradle.sync.needed": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.CalculoDniTest">
+  <component name="RunManager" selected="Gradle.BadListClassTest.throwsIndexOutOfBoundsException">
+    <configuration name="BadListClassTest.throwsIndexOutOfBoundsException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.n1exercici3.BadListClassTest.throwsIndexOutOfBoundsException&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="CalculoDniTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -161,6 +173,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BadListClassTest.throwsIndexOutOfBoundsException" />
         <item itemvalue="Gradle.CalculoDniTest" />
         <item itemvalue="Gradle.CalculoDniTest.calculEsCorrecte" />
         <item itemvalue="Gradle.YearTest" />
@@ -177,6 +190,19 @@
       <option name="presentableId" value="Default" />
       <updated>1696326056356</updated>
     </task>
+    <task id="LOCAL-00001" summary="exercicis 1 i 2 complets">
+      <option name="closed" value="true" />
+      <created>1696331025095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696331025095</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="exercicis 1 i 2 complets" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercicis 1 i 2 complets" />
   </component>
 </project>
