@@ -9,7 +9,7 @@ public class BadListClass {
 
     public String get(int i) throws IndexOutOfBoundsException{
         if (i < 0 || i > list.length) {
-            throw new ArrayIndexOutOfBoundsException();
+            throw new ArrayIndexOutOfBoundsException("Index out of bounds.");
         }
         return list[i];
     }
