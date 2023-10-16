@@ -7,7 +7,7 @@ public class BadListClass {
         this.list = list;
     }
 
-    public String get(int i) throws IndexOutOfBoundsException{
+    public String getElement(int i) throws IndexOutOfBoundsException{
         if (i < 0 || i > list.length) {
             throw new ArrayIndexOutOfBoundsException("Index out of bounds.");
         }

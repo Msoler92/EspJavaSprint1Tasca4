@@ -7,19 +7,19 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class YearTest {
     @Test
-    void listIsSize12() {
+    void monthListIsSize12() {
         Year newYear = new Year();
         assertEquals(12, newYear.getMonthList().size());
     }
 
     @Test
-    void listNotNull() {
+    void monthListNotNull() {
         Year newYear = new Year();
         assertNotNull(newYear.getMonthList());
     }
 
     @Test
-    void eightMonthIsAugust() {
+    void eightMonthInMonthListIsAugust() {
         Year newYear = new Year();
         assertEquals("August", newYear.getMonthList().get(7));
     }
