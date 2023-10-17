@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class BadListClassTest {
     @Test
-    void throwsIndexOutOfBoundsException() {
+    void throwsArrayIndexOutOfBoundsException() {
         String[] array = {"A", "B"};
         BadListClass badList = new BadListClass(array);
         Exception e = assertThrows(IndexOutOfBoundsException.class, () -> badList.getElement(3));
